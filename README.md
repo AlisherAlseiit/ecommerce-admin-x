@@ -24,5 +24,30 @@ links:
 3. npm install @clerk/nextjs
 4. npx shadcn-ui@latest add dialog
 5. npm install zustand
+6. npx shadcn-ui@latest add form
+7. npx shadcn-ui@latest add input
 
-1:06:06
+---
+to work with prisma
+1. npm i -D prisma
+2. npm i @prisma/client
+3. npx prisma init
+4. added prisma.db.ts under lib folder
+5. added DATABASE_URL in .env
+6. go to https://planetscale.com/, create database
+7. added code in schema.prisma file
+8. run npx prisma generate
+9. npx prisma db push
+
+---
+1. npm i axios
+2. npm i react-hot-toast
+
+---
+Reset db
+1. npx prisma migrate reset
+2. yes
+
+1. npx prisma generate
+2. npx prisma db push
+
