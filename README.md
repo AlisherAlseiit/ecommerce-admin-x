@@ -40,6 +40,12 @@ to work with prisma
 9. npx prisma db push
 
 ---
+After adding new models to PRISMA follow these steps:
+1. npx prisma generate
+2. npx prisma db push
+
+
+---
 1. npm i axios
 2. npm i react-hot-toast
 
@@ -50,4 +56,37 @@ Reset db
 
 1. npx prisma generate
 2. npx prisma db push
+
+
+1. npx shadcn-ui@latest add popover
+2. npx shadcn-ui@latest add popover
+
+1. npx shadcn-ui@latest add separator
+
+1. npx shadcn-ui@latest add alert
+2. npx shadcn-ui@latest add badge
+
+
+---
+TO work with Cloudinary
+link: https://next.cloudinary.dev/installation
+
+1. npm install next-cloudinary
+2. add NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME="<Your Cloud Name>" to .env
+3. don't forget to add code (modify) next.config.js and add this line:
+images: {
+    domains: [
+      "res.cloudinary.com"
+    ]
+  }
+
+---
+you can take uploadPreset:
+1. go to cloudinary website
+2. settings
+3. upload
+4. upload presets
+5. should be unsigned always
+
+
 
