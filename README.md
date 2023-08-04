@@ -89,4 +89,22 @@ you can take uploadPreset:
 5. should be unsigned always
 
 
+---
+data table
+1. npx shadcn-ui@latest add table
+2. npm install @tanstack/react-table
+3. npm i date-fns
+
+--- 
+dropdown
+1. npx shadcn-ui@latest add dropdown-menu
+
+select
+1. npx shadcn-ui@latest add select
+
+
+
+
+6:27:36
+
 
