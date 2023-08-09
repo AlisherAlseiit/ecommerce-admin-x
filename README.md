@@ -44,6 +44,9 @@ After adding new models to PRISMA follow these steps:
 1. npx prisma generate
 2. npx prisma db push
 
+---
+To run in different ports
+1. next will handle it automatically
 
 ---
 1. npm i axios
@@ -102,9 +105,12 @@ dropdown
 select
 1. npx shadcn-ui@latest add select
 
+checkbox
+1. npx shadcn-ui@latest add checkbox
 
 
 
-6:27:36
+
+
 
 
