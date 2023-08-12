@@ -44,6 +44,20 @@ After adding new models to PRISMA follow these steps:
 1. npx prisma generate
 2. npx prisma db push
 
+
+---
+TO work with stripe
+1. npm i stripe
+
+---
+To add stripe webhook
+
+1. go to stripe website and find webhook, https://dashboard.stripe.com/test/webhooks
+2. click to the button(test in local env)
+3. click to download the cli
+
+
+
 ---
 To run in different ports
 1. next will handle it automatically
