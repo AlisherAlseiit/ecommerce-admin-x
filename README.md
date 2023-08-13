@@ -124,7 +124,10 @@ checkbox
 
 
 
+recharts
+1. npm i recharts
 
 
+npm i next-themes
 
 
