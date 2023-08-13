@@ -131,3 +131,11 @@ recharts
 npm i next-themes
 
 
+--- 
+before deploying to vercel to these steps
+1. add "postinstall": "prisma generate" to package.json
+2. "npm run lint"  to check for errors
+3. add and commit to git
+4.
+
+
